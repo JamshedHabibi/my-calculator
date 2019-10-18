@@ -1,0 +1,84 @@
+body {
+    text-align: center;
+    background: url(background.jpg);
+}
+
+h1 {
+    font-family: Hind+Madurai, sans-serif;
+    color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+@media (min-width: 200px) {
+    .container {text-align: center;}
+} 
+
+@media (min-width: 750px) {
+    .container {
+        text-align: center;
+        margin-left: 200px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .container {
+        text-align: center;
+        margin-left: 400px;
+    }
+}
+@media (min-width: 1500px) {
+    .container {
+        text-align: center;
+        margin-left: 580px;
+    }
+}
+
+
+.display {
+    background: linear-gradient(to bottom, #e7e6e6 50%, #504f4f 100%);
+    color: black;
+    text-align: end;
+    font-size: 35px;
+    width: 348px;
+    height: 50px;
+    padding: 10px;
+}
+
+.row {
+    display: table;
+}
+
+.btn {
+    display: table-cell;
+    background: linear-gradient(to bottom, #444444 10%, #000000 100%);
+    color: white;
+    width: 50px;
+    height: 50px;
+    max-height: 50px;
+    border: 1px solid grey;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.btn:active {
+    background-color: #eea300;
+    box-shadow: 0 2px #666;
+    transform: translate3d(2px, 2px, -2px);
+}
+
+.acc {
+    background: linear-gradient(to bottom, #d6a400 20%, #5a4d02 100%);
+}
+
+#zero {
+    width: 142px;
+}
+
+.btn:hover {
+    background: orange;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+		<meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Crete+Round|Hind+Madurai|Lobster|Vollkorn&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Welcome to my Calculator</h1>
+
+    <div class='container'>
+        <div class='row'>
+            <div class='display' id='display'>0</div>
+        </div>
+
+        <div class='row'>
+            <div class='btn acc AC' id='AC' onclick="AC()">AC</div>
+            <div class='btn acc divison' id='division' onclick="input_divide()">÷</div>
+            <div class='btn acc multiply'id='multiply'onclick="input_multiply()">X</div>
+            <div class='btn acc backspace' id='backspace' onclick="backspace()">⌫</div>
+        </div>
+
+        <div class='row'>
+            <div class='btn seven' id='seven' onclick="input7()">7</div>
+            <div class='btn eight' id='eight' onclick="input8()">8</div>
+            <div class='btn nine' id='nine' onclick="input9()">9</div>
+            <div class='btn acc sqrt' id='sqrt' onclick="input_sqrt()">√</div>
+            
+        </div>
+
+        <div class='row'>
+            <div class='btn four' id='four' onclick="input4()">4</div>
+            <div class='btn five' id='five'onclick="input5()">5</div>
+            <div class='btn six' id='six' onclick="input6()">6</div>
+            <div class='btn acc minus' id='minus' onclick="input_minus()">-</div>
+         
+        </div>
+        
+        <div class='row'>
+            <div class='btn one' id='one' onclick="input1()">1</div>
+            <div class='btn two' id='two' onclick="input2()">2</div>
+            <div class='btn three' id='three' onclick="input3()">3</div>
+            <div class='btn acc addition' id='addition' onclick="input_plus()">+</div>
+        </div>
+
+        <div class='row'>
+            <div class='btn decimal' onclick="input_decimal()">.</div>
+            <div class='btn zero' id='zero' onclick="input0()">0</div>
+            <div class='btn acc equals' id='equality' onclick="sum()">=</div>
+
+        </div>
+    </div>
+
+    <script src='script.js'></script>
+
+    
+</body>
+</html>
